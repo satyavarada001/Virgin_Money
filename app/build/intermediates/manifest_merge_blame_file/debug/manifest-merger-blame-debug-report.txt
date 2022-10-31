@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.virgin.money"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:6:5-67
+11-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <!-- Permission will be merged into the manifest of the hosting app. -->
+14    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:13:5-77
+15-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:13:22-74
+16
+17    <application
+17-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:8:5-28:19
+18        android:name="com.virgin.money.application.VirginMoneyApp"
+18-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:9:9-51
+19        android:allowBackup="true"
+19-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:10:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.8.0] C:\Users\lenovo\.gradle\caches\transforms-3\1148dfa0bf0d0e552b636a58ca2f0ae7\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+21        android:dataExtractionRules="@xml/data_extraction_rules"
+21-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:11:9-65
+22        android:debuggable="true"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:12:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:13:9-43
+25        android:label="@string/app_name"
+25-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:14:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:15:9-54
+27        android:supportsRtl="true"
+27-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:16:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.VirginMoney" >
+29-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:17:9-49
+30        <activity
+30-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:19:9-27:20
+31            android:name="com.virgin.money.ui.main.MainActivity"
+31-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:20:13-49
+32            android:exported="true" >
+32-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:21:13-36
+33            <intent-filter>
+33-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:22:13-26:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:23:17-69
+34-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:23:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:25:17-77
+36-->F:\WS_STUDIO\New folder\virgin-money-android-app-main\app\src\main\AndroidManifest.xml:25:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <uses-library
+40-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\40d3ae64630b79c59d9462c21a16f3fb\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+41            android:name="androidx.window.extensions"
+41-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\40d3ae64630b79c59d9462c21a16f3fb\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+42            android:required="false" />
+42-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\40d3ae64630b79c59d9462c21a16f3fb\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+43        <uses-library
+43-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\40d3ae64630b79c59d9462c21a16f3fb\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+44            android:name="androidx.window.sidecar"
+44-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\40d3ae64630b79c59d9462c21a16f3fb\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+45            android:required="false" />
+45-->[androidx.window:window:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\40d3ae64630b79c59d9462c21a16f3fb\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+46
+47        <provider
+47-->[com.squareup.picasso:picasso:2.71828] C:\Users\lenovo\.gradle\caches\transforms-3\c8cd563cf279d37a1fb69f441f977569\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+48            android:name="com.squareup.picasso.PicassoProvider"
+48-->[com.squareup.picasso:picasso:2.71828] C:\Users\lenovo\.gradle\caches\transforms-3\c8cd563cf279d37a1fb69f441f977569\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+49            android:authorities="com.virgin.money.com.squareup.picasso"
+49-->[com.squareup.picasso:picasso:2.71828] C:\Users\lenovo\.gradle\caches\transforms-3\c8cd563cf279d37a1fb69f441f977569\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+50            android:exported="false" />
+50-->[com.squareup.picasso:picasso:2.71828] C:\Users\lenovo\.gradle\caches\transforms-3\c8cd563cf279d37a1fb69f441f977569\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+51        <provider
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\95f8dc1a9cbb74cf6aab20a247530a9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\95f8dc1a9cbb74cf6aab20a247530a9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+53            android:authorities="com.virgin.money.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\95f8dc1a9cbb74cf6aab20a247530a9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\95f8dc1a9cbb74cf6aab20a247530a9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\95f8dc1a9cbb74cf6aab20a247530a9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\95f8dc1a9cbb74cf6aab20a247530a9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\95f8dc1a9cbb74cf6aab20a247530a9c\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lenovo\.gradle\caches\transforms-3\90974d741901439781245feb923c4355\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lenovo\.gradle\caches\transforms-3\90974d741901439781245feb923c4355\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lenovo\.gradle\caches\transforms-3\90974d741901439781245feb923c4355\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+61        </provider> <!-- The activities will be merged into the manifest of the hosting app. -->
+62        <activity
+62-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:18:9-24:45
+63            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+63-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:19:13-100
+64            android:enabled="false"
+64-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:20:13-36
+65            android:exported="false"
+65-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:21:13-37
+66            android:launchMode="singleInstance"
+66-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:22:13-48
+67            android:process=":playcore_missing_splits_activity"
+67-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:23:13-64
+68            android:stateNotNeeded="true" />
+68-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:24:13-42
+69        <activity
+69-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:25:9-29:65
+70            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+70-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:26:13-93
+71            android:exported="false"
+71-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:27:13-37
+72            android:stateNotNeeded="true"
+72-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:28:13-42
+73            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+73-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:29:13-62
+74        <service
+74-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:32:9-39:19
+75            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+75-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:33:13-94
+76            android:enabled="false"
+76-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:34:13-36
+77            android:exported="true" >
+77-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:35:13-36
+78            <meta-data
+78-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:36:13-38:41
+79                android:name="com.google.android.play.core.assetpacks.versionCode"
+79-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:37:17-83
+80                android:value="11003" />
+80-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:38:17-38
+81        </service>
+82        <service
+82-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:40:9-43:40
+83            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+83-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:41:13-95
+84            android:enabled="false"
+84-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:42:13-36
+85            android:exported="false" />
+85-->[com.google.android.play:core:1.10.3] C:\Users\lenovo\.gradle\caches\transforms-3\725a19fd033c0b6ea21f38faa84a5484\transformed\jetified-core-1.10.3\AndroidManifest.xml:43:13-37
+86    </application>
+87
+88</manifest>

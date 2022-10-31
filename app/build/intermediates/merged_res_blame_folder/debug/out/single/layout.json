@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.virgin.money.app-mergeDebugResources-51:/layout/recycler_item_people.xml",
+        "source": "com.virgin.money.app-main-54:/layout/recycler_item_people.xml"
+    },
+    {
+        "merged": "com.virgin.money.app-mergeDebugResources-51:/layout/fragment_room.xml",
+        "source": "com.virgin.money.app-main-54:/layout/fragment_room.xml"
+    },
+    {
+        "merged": "com.virgin.money.app-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "com.virgin.money.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.virgin.money.app-mergeDebugResources-51:/layout/fragment_people.xml",
+        "source": "com.virgin.money.app-main-54:/layout/fragment_people.xml"
+    },
+    {
+        "merged": "com.virgin.money.app-mergeDebugResources-51:/layout/fragment_people_details.xml",
+        "source": "com.virgin.money.app-main-54:/layout/fragment_people_details.xml"
+    },
+    {
+        "merged": "com.virgin.money.app-mergeDebugResources-51:/layout/recycler_item_room.xml",
+        "source": "com.virgin.money.app-main-54:/layout/recycler_item_room.xml"
+    }
+]
